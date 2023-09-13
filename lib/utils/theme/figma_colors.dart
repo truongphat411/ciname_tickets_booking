@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 class FigmaColors {
   FigmaColors._();
 
-  static const Color mainSecondary = Color(0xFF83705D);
-  static const Color mainPrimary = Color(0xFF007E3F);
+  static const Color mainSecondary = Color(0x000b0f2f);
+  static const Color mainPrimary = Color(0x000b0f2f);
   static const Color mainSecondaryPale = Color(0xFFC5C3C1);
   static const Color mainPrimaryPale = Color(0xFFE6F5EB);
   static const Color baseBlack = Color(0xFF000000);
@@ -15,7 +15,7 @@ class FigmaColors {
   static const Color baseRed = Color(0xFFDD411E);
   static const Color baseGold = Color(0xFFE7C160);
   static const Color baseYellow = Color(0xFFFFF6E5);
-  static const Color backgroundPrimary = Color(0xFFF5F3F1);
+  static const Color backgroundPrimary = Color(0x000b0f2f);
   static const Color backgroundSecondary = Color(0xFFECEBEA);
   static const Color textPrimary = Color(0xFF1C1B1F);
   static const Color separatePrimary = Color(0xFFD6D4D2);
