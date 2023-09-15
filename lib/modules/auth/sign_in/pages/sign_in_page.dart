@@ -39,6 +39,7 @@ class _SignInPageState extends State<SignInPage> {
           passwordFocusNode.unfocus();
         },
         child: Scaffold(
+          resizeToAvoidBottomInset: false,
           backgroundColor: const Color(0xFF0B0F2F),
           body: Padding(
             padding: const EdgeInsets.only(top: 30, left: 12),

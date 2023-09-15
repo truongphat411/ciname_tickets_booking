@@ -1,5 +1,6 @@
 import 'package:ciname_tickets_booking/modules/auth/sign_in/pages/sign_in_page.dart';
 import 'package:ciname_tickets_booking/modules/auth/sign_up/pages/sign_up_page.dart';
+import 'package:ciname_tickets_booking/modules/ticket_details/pages/ticket_details_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SignUpPage(),
+      home: const Ticket(),
       localizationsDelegates: const [
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,

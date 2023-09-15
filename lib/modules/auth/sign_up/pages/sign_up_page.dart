@@ -74,8 +74,10 @@ class _SignUpPageState extends State<SignUpPage> {
       child: GestureDetector(
         onTap: () {},
         child: Scaffold(
+          resizeToAvoidBottomInset: false,
           backgroundColor: const Color(0xFF0B0F2F),
           body: SingleChildScrollView(
+            physics: const BouncingScrollPhysics(),
             child: Padding(
               padding: const EdgeInsets.only(top: 30, left: 12),
               child: Column(
